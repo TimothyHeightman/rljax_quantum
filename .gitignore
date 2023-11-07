@@ -9,3 +9,11 @@ data/
 *.out
 *.sh
 *.ipynb
+*.cfg
+*.csh
+*.fish
+*.ps1
+rljax_quantum/bin/
+*.pth
+rljax_quantum/lib/
+
