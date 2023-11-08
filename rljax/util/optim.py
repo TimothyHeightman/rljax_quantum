@@ -4,7 +4,8 @@ from typing import Any, Tuple
 import haiku as hk
 import jax
 import jax.numpy as jnp
-from jax.experimental import optix
+#from jax.experimental import optix
+import optax as optix
 from jax.tree_util import tree_flatten
 
 

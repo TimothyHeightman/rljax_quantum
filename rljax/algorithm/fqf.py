@@ -6,7 +6,8 @@ import haiku as hk
 import jax
 import jax.numpy as jnp
 import numpy as np
-from jax.experimental import optix
+#from jax.experimental import optix
+import optax as optix
 
 from rljax.algorithm.qrdqn import QRDQN
 from rljax.network import CumProbNetwork, DiscreteImplicitQuantileFunction, make_quantile_nerwork
